@@ -7,7 +7,6 @@
 // ==/UserScript==
 
 (function(){
-  var suppressing;
   var posts = document.getElementById("alltopic");
   if(posts != null){
     posts.addEventListener('mouseup', function(e) {
